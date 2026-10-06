@@ -62,7 +62,7 @@ export const PositiveNegativeLedger: React.FC<LedgerProps> = ({
           <div className="flex items-center justify-between border-b border-emerald-500/20 pb-2">
             <div className="flex items-center space-x-2 text-primaryEmerald font-bold text-sm">
               <TrendingUp className="h-4 w-4" />
-              <span>🟢 POSITIVE IMPACTS (+{positiveScore})</span>
+              <span>POSITIVE IMPACTS (+{positiveScore})</span>
             </div>
             <span className="text-xs font-extrabold text-primaryEmerald bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/30">
               Value Contribution
@@ -90,7 +90,7 @@ export const PositiveNegativeLedger: React.FC<LedgerProps> = ({
           <div className="flex items-center justify-between border-b border-rose-500/20 pb-2">
             <div className="flex items-center space-x-2 text-negativeRed font-bold text-sm">
               <AlertTriangle className="h-4 w-4" />
-              <span>🔴 NEGATIVE EXTERNALITIES (-{negativeScore})</span>
+              <span>NEGATIVE EXTERNALITIES (-{negativeScore})</span>
             </div>
             <span className="text-xs font-extrabold text-negativeRed bg-rose-500/10 px-2 py-0.5 rounded border border-rose-500/30">
               Urban Burden

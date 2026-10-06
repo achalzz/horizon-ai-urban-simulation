@@ -229,8 +229,8 @@ export const MapContainer: React.FC<MapContainerProps> = ({
       el.className = "relative flex items-center justify-center";
       el.innerHTML = `
         <div class="w-8 h-8 rounded-full bg-emerald-500/40 border-2 border-emerald-300 flex items-center justify-center animate-ping absolute"></div>
-        <div class="w-9 h-9 rounded-full bg-emerald-500 border-2 border-slate-900 flex items-center justify-center shadow-2xl text-slate-950 font-black text-sm z-10">
-          📍
+        <div class="w-8 h-8 rounded-full bg-emerald-500 border-2 border-slate-900 flex items-center justify-center shadow-2xl text-slate-950 z-10">
+          <svg class="w-4 h-4 text-slate-950" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
         </div>
       `;
       markerRef.current = new maplibregl.Marker({ element: el })

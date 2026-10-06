@@ -102,7 +102,7 @@ export const ChallengeDrawer: React.FC<ChallengeProps> = ({
         <div className="bg-cardDark/80 rounded-xl p-4 border border-rose-500/30 space-y-2">
           <h4 className="text-xs font-bold text-negativeRed uppercase tracking-wider flex items-center space-x-1.5">
             <AlertCircle className="h-4 w-4" />
-            <span>🔥 What Are We Sacrificing?</span>
+            <span>Critical Externalities & Trade-Offs</span>
           </h4>
           <ul className="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
             {sacrifices.map((sac, i) => (
@@ -114,7 +114,7 @@ export const ChallengeDrawer: React.FC<ChallengeProps> = ({
         <div className="bg-cardDark/80 rounded-xl p-4 border border-emerald-500/30 space-y-2">
           <h4 className="text-xs font-bold text-primaryEmerald uppercase tracking-wider flex items-center space-x-1.5">
             <ShieldCheck className="h-4 w-4" />
-            <span>🟡 Required Planning Conditions</span>
+            <span>Statutory Mitigation Conditions</span>
           </h4>
           <ul className="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
             {mitigations.map((mit, i) => (
